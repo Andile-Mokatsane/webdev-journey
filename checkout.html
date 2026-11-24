@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header>
+      <h1>Checkout</h1>
+      <nav>
+        <a href="index.html">Mama Nomsa's Spaza Shop</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="order">
+        <h2>Your Order</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wireless earphones</td>
+              <td>1</td>
+              <td>R349</td>
+            </tr>
+            <tr>
+              <td>Phone cover</td>
+              <td>2</td>
+              <td>R99</td>
+            </tr>
+            <tr>
+              <td>USB charging cable</td>
+              <td>1</td>
+              <td>R79</td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td></td>
+              <td>R626</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="delivery">
+        <h2>Delivery Details</h2>
+        <form>
+          <p><label for="name">Full name:</label></p>
+          <p><input type="text" id="name" name="name" required /></p>
+          <p><label for="phone">Phone number:</label></p>
+          <p><input type="tel" id="phone" name="phone" required /></p>
+          <p><label for="st-address">Street address:</label></p>
+          <p>
+            <input type="text" id="st-address" name="st-address" required />
+          </p>
+          <p><label for="city">City:</label></p>
+          <p><input type="text" id="city" name="city" required /></p>
+          <p><label for="province">Province:</label></p>
+          <p>
+            <select id="province" name="province">
+              <option value="gauteng">Gauteng</option>
+              <option value="kwazulu-natal">KwaZulu-Natal</option>
+              <option value="western-cape">Western Cape</option>
+              <option value="eastern-cape">Eastern Cape</option>
+              <option value="free-state">Free State</option>
+              <option value="limpopo">Limpopo</option>
+              <option value="mpumalanga">Mpumalanga</option>
+              <option value="north-west">North West</option>
+              <option value="northern-cape">Northern Cape</option>
+            </select>
+          </p>
+
+          <p>Delivery method:</p>
+          <p>
+            <input
+              type="radio"
+              id="standard"
+              name="delivery"
+              value="standard"
+              required
+            />
+            <label for="standard">Standard delivery (3 to 5 days)</label>
+          </p>
+          <p>
+            <input type="radio" id="express" name="delivery" value="express" />
+            <label for="express">Express delivery (1 to 2 days)</label>
+          </p>
+          <p><label for="delivery-notes">Delivery notes</label></p>
+          <p>
+            <textarea
+              id="delivery-notes"
+              name="delivery-notes"
+              rows="3"
+            ></textarea>
+          </p>
+          <p><button type="submit">Place Order</button></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Mzansi Mart</p>
+      <p><a href="contact.html">Contact us</a></p>
+    </footer>
+  </body>
+</html>
