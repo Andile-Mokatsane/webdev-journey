@@ -1,80 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zinhle's Hair Salon.</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zinhle's Hair Salon</title>
+  </head>
+  <body>
     <header>
-        <h1>Zinhle's Hair Salon</h1>
-        <img src="images/salon2.jpg" alt="Salon cover photo" width="500">
-        <nav>
-    <a href="#about">About</a>
-    <a href="#work">Our Work</a>
-    <a href="#prices">Prices</a>
-    <a href="#book">Book</a>
-</nav>
-        <section id="about">
-    <h2>About Us</h2>
-    <p>Zinhle's Hair Salon is a family-run salon in the heart of Durban. We opened our doors in 2018 with two chairs and a simple promise: every client leaves feeling confident and looking their best.</p>
-    <p>Our stylists have over ten years of experience in braiding, weaves and natural hair care. We take the time to listen to what you want and advise you on what suits your hair type and lifestyle.</p>
-    <p>The salon is clean, relaxed and welcoming. Bring a friend, enjoy the music, and let us take care of the rest. We offer free tea and coffee while you wait.</p>
-</section>
+      <h1>Zinhle's Hair Salon</h1>
 
-<section id="work">
-    <h2>Our Work</h2>
-    <p>From neat box braids and long-lasting knotless styles to sleek weave installations, we create looks for school, work, weddings and special occasions.</p>
-    <p>Every style begins with a wash and a scalp check, so your hair stays healthy underneath. We use quality products and quality hair, and we never rush a style.</p>
-    <p>Not sure what to choose? Show us a photo of the look you like, and we'll tell you honestly how long it takes and what it costs.</p>
-    <p>Most clients book a few days ahead, and weekends fill up fast, so reserve your slot early.</p>
-</section>
-        
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Our Work</a>
+        <a href="#prices">Prices</a>
+        <a href="#book">Book</a>
+      </nav>
+      <img src="images/salon2.jpg" alt="Salon cover photo" width="500" />
     </header>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Zinhle's Hair Salon is a family-run salon in the heart of Durban. We
+        opened our doors in 2018 with two chairs and a simple promise: every
+        client leaves feeling confident and looking their best.
+      </p>
+      <p>
+        Our stylists have over ten years of experience in braiding, weaves and
+        natural hair care. We take the time to listen to what you want and
+        advise you on what suits your hair type and lifestyle.
+      </p>
+      <p>
+        The salon is clean, relaxed and welcoming. Bring a friend, enjoy the
+        music, and let us take care of the rest. We offer free tea and coffee
+        while you wait.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Our Work</h2>
+      <p>
+        From neat box braids and long-lasting knotless styles to sleek weave
+        installations, we create looks for school, work, weddings and special
+        occasions.
+      </p>
+      <p>
+        Every style begins with a wash and a scalp check, so your hair stays
+        healthy underneath. We use quality products and quality hair, and we
+        never rush a style.
+      </p>
+      <p>
+        Not sure what to choose? Show us a photo of the look you like, and we'll
+        tell you honestly how long it takes and what it costs.
+      </p>
+      <p>
+        Most clients book a few days ahead, and weekends fill up fast, so
+        reserve your slot early.
+      </p>
+    </section>
     <main>
-        <section id="prices">
-            <h2>Our Prices</h2>
-            <img src="images/salon1.jpg" alt="Different styles we offer." width="500">
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Service</th>
-                        <th>Time</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Box braids</td>
-                        <td>4 hours</td>
-                        <td>R450</td>
-                    </tr>
-                    <tr>
-                        <td>Knotless braids</td>
-                        <td>5 hours</td>
-                        <td>R500</td>
-                    </tr>
-                    <tr>
-                        <td>Weave installation</td>
-                        <td>3 hours</td>
-                        <td>R500</td>
-                    </tr>
-                    <tr>
-                        <td>Wash and blow-dry</td>
-                        <td>1 hour</td>
-                        <td>R120</td>
-                    </tr>
-                </tbody>
-            </table>
-           
-        </section>
-        <section id="book">
-            <h2>Book Now</h2>
-            
-        </section>
+      <section id="prices">
+        <h2>Our Prices</h2>
+        <img
+          src="images/salon1.jpg"
+          alt="Different styles we offer."
+          width="500"
+        />
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Time</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Box braids</td>
+              <td>4 hours</td>
+              <td>R450</td>
+            </tr>
+            <tr>
+              <td>Knotless braids</td>
+              <td>5 hours</td>
+              <td>R600</td>
+            </tr>
+            <tr>
+              <td>Weave installation</td>
+              <td>3 hours</td>
+              <td>R500</td>
+            </tr>
+            <tr>
+              <td>Wash and blow-dry</td>
+              <td>1 hour</td>
+              <td>R120</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="book">
+        <h2>Book Now</h2>
+        <form>
+          <p><label for="name">Full name:</label></p>
+          <p><input type="text" id="name" name="name" required /></p>
+          <p><label for="phone">Phone number:</label></p>
+          <p><input type="tel" id="phone" name="phone" required /></p>
+          <p><label for="email">Email address:</label></p>
+          <p><input type="email" id="email" name="email" /></p>
+          <p><label for="service">Services:</label></p>
+          <p>
+            <select id="service" name="service">
+              <option value="box-braids">Box braids</option>
+              <option value="knotless">Knotless braids</option>
+              <option value="weave-installation">Weave installation</option>
+              <option value="wash-blow-dry">Wash and blow-dry</option>
+            </select>
+          </p>
+          <p><label for="date">Date:</label></p>
+          <p><input type="date" id="date" name="date" required /></p>
+          <p><label for="notes">Notes:</label></p>
+          <p><textarea id="notes" name="notes" rows="4"></textarea></p>
+          <p><button type="submit">Book Now</button></p>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>© 2026 Zinhle's Hair Salon</p>
+      <p>© 2026 Zinhle's Hair Salon</p>
     </footer>
-</body>
+  </body>
 </html>
