@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Zinhle's Hair Salon</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Zinhle's Hair Salon</h1>
+      <nav>
+        <a href="salon.html">Visit Zinhle's Hair Salon</a>
+        <a href="index.html">Visit Mama Nomsa's Spaza Shop</a>
+        <a href="barber.html">Visit Sipho's Barbershop</a>
+      </nav>
+    </header>
+    <main>
+      <section id="opening-hours">
+        <h2>Opening Hours</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday to Friday</td>
+              <td>8am to 6pm</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>8am to 4pm</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="find-us">
+        <h2>Find Us</h2>
+        <p>45 Florida Road, Morningside, Durban</p>
+        <p>Phone: 031 555 0789</p>
+        <p><a href="salon.html#book">Book an appointment</a></p>
+      </section>
+      <section id="send-message">
+        <h2>Send a Message</h2>
+        <form>
+          <p><label for="name">Full name:</label></p>
+          <p><input type="text" id="name" name="name" required /></p>
+          <p><label for="email">Email address:</label></p>
+          <p><input type="email" id="email" name="email" required /></p>
+          <p><label for="subject">Subject:</label></p>
+          <p>
+            <select id="subject" name="subject">
+              <option value="booking">Booking</option>
+              <option value="question">Question</option>
+              <option value="complaint">Complaint</option>
+            </select>
+          </p>
+          <p><label for="message">Message:</label></p>
+          <p>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </p>
+          <p><button type="submit">Send</button></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Zinhle's Hair Salon</p>
+    </footer>
+  </body>
+</html>
