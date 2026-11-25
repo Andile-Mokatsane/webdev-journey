@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F6F1E7;
+    color: #2B2B2B;
+    line-height: 1.6;
+}
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+header {
+    background-color: #111111;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wordmark {
+    color: #F6F1E7;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.dot {
+    color: #E8A0B4;
+}
+nav a {
+  color: #F6F1E7;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 24px;
+}
+nav a:hover {
+    color: #E8A0B4;
+}
+#hero {
+    background-color: #111111;
+    color: #F6F1E7;
+    text-align: center;
+    padding: 120px 24px;
+}
+#hero h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+.tagline {
+    color: #B8A06A;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
+.button {
+    display: inline-block;
+    background-color: #B8A06A;
+    color: #111111;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: #F6F1E7;
+}
+#how,
+#private {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    text-align: center;
+}
+#how h2,
+#private h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+#how p,
+#private p{
+    margin-bottom: 16px;
+}
+
+
+footer {
+    background-color: #2B2B2B;
+    color: #F6F1E7;
+    text-align: center;
+    padding: 32px 24px;
+    font-size: 14px;
+}
